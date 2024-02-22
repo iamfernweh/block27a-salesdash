@@ -4,7 +4,7 @@ export default function Transactions() {
     return (
         <>
             <h2>
-                {mockTransactions.length}{''} Transactions
+                Transactions {mockTransactions.length}{''}
             </h2>
         </>
     );

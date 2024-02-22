@@ -8,8 +8,8 @@ export default function Revenue() {
     return (
         <>
             <h2>
-                <span className='currency'>$</span>
-                {totalRevenue} revenue generated.
+
+                Revenue generated: <span className='currency'>$</span>{totalRevenue}
             </h2>
         </>
     );
