@@ -10,6 +10,11 @@ function App() {
     <div className='grid grid-cols-2 gap-12'>
       <div>
         <Card>
+          <Sidebar />
+        </Card>
+      </div>
+      <div>
+        <Card>
           <Revenue />
         </Card>
       </div>
@@ -21,11 +26,6 @@ function App() {
       <div>
         <Card>
           <Heading />
-        </Card>
-      </div>
-      <div>
-        <Card>
-          <Sidebar />
         </Card>
       </div>
     </div>
