@@ -7,7 +7,7 @@ export default function Heading() {
             <table>
                 <thead>
                     <tr>
-                        <th>Transaction ID</th>
+                        <th>Transaction Id</th>
                         <th>User</th>
                         <th>Date</th>
                         <th>Cost ($)</th>
