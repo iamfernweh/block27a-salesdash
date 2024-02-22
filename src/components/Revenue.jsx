@@ -9,7 +9,7 @@ export default function Revenue() {
         <>
             <h2>
                 <span className='currency'>$</span>
-                {totalRevenue} of Revenue generated from {mockTransactions.length}{''} Transactions
+                {totalRevenue} revenue generated.
             </h2>
         </>
     );
