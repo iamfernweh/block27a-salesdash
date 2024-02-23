@@ -14,10 +14,10 @@ export default function Heading() {
                 <TableHead>
                     <h3>Transaction History</h3>
                     <TableRow>
-                        <TableCell align="right">Transaction Id</TableCell>
-                        <TableCell align="right">User</TableCell>
-                        <TableCell align="right">Date</TableCell>
-                        <TableCell align="right">Cost&nbsp;($)</TableCell>
+                        <TableCell align="left">Transaction Id</TableCell>
+                        <TableCell align="left">User</TableCell>
+                        <TableCell align="left">Date</TableCell>
+                        <TableCell align="left">Cost&nbsp;($)</TableCell>
                     </TableRow>
                 </TableHead>
                 <TableBody>
@@ -26,10 +26,10 @@ export default function Heading() {
                             key={transaction.name}
                             sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
                         >
-                            <TableCell align="right">{transaction.txId}</TableCell>
-                            <TableCell align="right">{transaction.user}</TableCell>
-                            <TableCell align="right">{transaction.date}</TableCell>
-                            <TableCell align="right">{transaction.cost}</TableCell>
+                            <TableCell align="left">{transaction.txId}</TableCell>
+                            <TableCell align="left">{transaction.user}</TableCell>
+                            <TableCell align="left">{transaction.date}</TableCell>
+                            <TableCell align="left">{transaction.cost}</TableCell>
                         </TableRow>
                     ))}
                 </TableBody>
